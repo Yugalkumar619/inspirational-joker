@@ -54,4 +54,5 @@ public class ImageErrorResponse {
     public void setData(Image data) {
         this.data = data;
     }
+
 }
