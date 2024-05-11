@@ -26,4 +26,4 @@ jobs:
         run:  sudo mvn clean install
 
       - name: Complete
-        run: sudo java -jar [Location of jar] &
+        run: sudo java -jar /home/actions-runner/_work/inspirational-joker/target/inspirational-joker-0.0.1-SNAPSHOT.jar &
